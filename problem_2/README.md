@@ -56,8 +56,8 @@ python3 train.py --dataset-path <path-to-data> and --saved-model-folder <path-to
   
 
 > **Warning**
-> Docker Image Doesn't support GPU acceleration.
-> Using directly through python script(method 2) will use GPU if CUDA is enabled and provide ~10X faster training.
+>Docker Image Doesn't support GPU acceleration right now.
+>Using directly through python script(method 2) will use GPU if CUDA is enabled and provide ~10X faster training.
  
 
 
@@ -84,8 +84,7 @@ We're applying a set of augmentations to the training and validation data to inc
 
 However, since we apply an AutoAugment layer, each batch of images are augmented differently.Resulting augmented images can look like this-
        
-       
-       ![image](https://user-images.githubusercontent.com/50940878/208778896-2097de34-0807-41fe-a8ea-6037b73fb7b8.png)
+![image](https://user-images.githubusercontent.com/50940878/208778896-2097de34-0807-41fe-a8ea-6037b73fb7b8.png)
 
        
 ### Plotting Training Metrics-
