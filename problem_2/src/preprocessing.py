@@ -45,14 +45,12 @@ class Preprocessor:
 
 
 
-        train_dataloader=DataLoader(train_data, batch_size=4, shuffle=True, num_workers=8)
-        val_dataloader=DataLoader(val_data, batch_size=4, shuffle=True, num_workers=8)
+        train_dataloader=DataLoader(train_data, batch_size=8, shuffle=True, num_workers=8)
+        val_dataloader=DataLoader(val_data, batch_size=8, shuffle=True, num_workers=8)
 
         dataset_sizes={'train':len(train_data),
                         'val': len(val_data)}
 
-        
-        
         return train_dataloader,val_dataloader, dataset_sizes,classes
         
     def test_load_transform(self):
