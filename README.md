@@ -2,8 +2,7 @@
 
 Directory Structure-
 
-'''
-├── README.md
+```├── README.md
 ├── problem_1
 │   ├── Problem_1.docx
 │   └── Problem_1.pdf
@@ -26,4 +25,4 @@ Directory Structure-
 └── problem_3
     ├── README.md
     └── problem_3.py
-'''
+```
