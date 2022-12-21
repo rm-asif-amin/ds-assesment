@@ -1,5 +1,8 @@
 # Submission for the Data Science assessment
 
+Please check README within the problem folders for discussion and steps for execution.
+
+
 Directory Structure-
 
 ```├── README.md
